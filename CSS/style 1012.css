@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HR+Lijeva&family=Roboto&display=swap');
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img-100{width: 50px; height:auto; padding: inherit}
+
+body{ font-family: "Roboto", serif; font-size: 17px; color: #A49F9F; margin: 0
+}
+header{
+	width: 100%; height: 60%; background-color:#DDDDDD; border-bottom: 1px darkred solid
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex; 
+}
+.menu{ 
+	padding-top: 20px
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; color: #4E4E4E; text-transform: uppercase; font-weight: bold; border-radius: 20px
+}
+.menu ul li a:hover{ background-color: darkred; color: white
+	
+	/*z*/
+}
+/*phan slider*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:80px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:red;
+      text-decoration: none; }
+
+#slide .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#FC0;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #slide .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #3A3AA6; }
+main{ 
+width: 100%; min-height: 500px
+}
+.text-do{ color: darkred; text-decoration: underline}
+.text-do:hover{ color: rgba(255,0,4,1.00); text-decoration: none}
+.text-trang{color: white}
+aside ul{ margin: 0; padding:0; list-style: none; display: flex; flex-direction: column}
+aside ul li a{ text-decoration: none; padding: 10px; display: block; color: #666666}
+aside ul li a:hover{ background-color: darkred; color: white}
+aside ul li{ border-bottom: 1px solid gray}
+
+footer{
+	width: 100%; min-height: 200px; background-color: rgba(133,13,15,1.00)
+}
+.mr-10{margin-right: 10px}
+a{color: rgba(186,186,186,1.00)}
+footer a:hover{ color: yellow}
+footer a{ text-decoration: none; color: 
+white}
+h4{color: rgba(186,186,186,1.00)}
+p{color: black}
+h5{text-decoration: underline; color: rgba(179,177,177,1.00)}
+h5:hover{color: yellow}
+.fab{ color: #686868; margin-top: 5px}
+footer ul{; padding: 0; list-style: none; display: flex; flex-direction: column}
+footer ul li a{ padding: 10px; display: block; color: white}
+.colortextfooter{color: rgba(186,186,186,1.00)}
+.boxmild{background-color: rgba(252,175,0,1.00); padding: 17px}
+.boxmedium{background-color: rgba(255,128,3,1.00); padding: 17px}
+.boxmed-dark{background-color: rgba(103,38,0,1.00); padding: 17px}
+.boxdark{background-color:rgba(44,16,0,1.00) ; padding: 17px}
+
